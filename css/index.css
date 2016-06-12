@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, p {
 .hero1 {
   position: absolute;
   width: 315px;
-  height: 360px;
+  height: 320px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -58,6 +58,11 @@ h1, h2, h3, h4, h5, p {
   text-align: center;
   color: #4A4A4A;
   margin-bottom: 50px; }
+.text1and2 .borderDivider {
+  border-bottom: 1px solid #979797;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
 
 .clients {
   padding-left: 15px;
@@ -79,6 +84,18 @@ h1, h2, h3, h4, h5, p {
     margin-bottom: 15px; }
   .clients .logo:last-child {
     margin-bottom: 50px; }
+  .clients .hudsontech {
+    background: url("../img/logos/hudsontech.png");
+    background-size: 211px 56px; }
+  .clients .lynxspring {
+    background: url("../img/logos/lynxspring.png");
+    background-size: 211px 56px; }
+  .clients .multistack {
+    background: url("../img/logos/multistack.png");
+    background-size: 211px 56px; }
+  .clients .siemens {
+    background: url("../img/logos/siemens.png");
+    background-size: 211px 56px; }
 
 .footer {
   padding-left: 15px;
@@ -99,6 +116,11 @@ h1, h2, h3, h4, h5, p {
   .footer .contact p:last-child {
     margin-bottom: 25px; }
 
-/* min-width 641px, medium screens */
-/* min-width 1025px, large screens */
-/* min-width 1441px, xlarge screens */
+/* Small only */
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .text1and2 .borderDivider {
+    border-bottom: 0px; } }
+/* Medium only */
+/* Large and up */
+/* Large only */

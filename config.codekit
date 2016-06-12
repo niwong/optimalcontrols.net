@@ -3953,6 +3953,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logos\/hudsontech.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9940,
+		"inputAbbreviatedPath": "\/img\/logos\/hudsontech.png",
+		"outputAbbreviatedPath": "\/img\/logos\/hudsontech.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/Lynxspring.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4277,
+		"inputAbbreviatedPath": "\/img\/logos\/Lynxspring.png",
+		"outputAbbreviatedPath": "\/img\/logos\/Lynxspring.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/multistack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30704,
+		"inputAbbreviatedPath": "\/img\/logos\/multistack.png",
+		"outputAbbreviatedPath": "\/img\/logos\/multistack.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/Siemens.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27243,
+		"inputAbbreviatedPath": "\/img\/logos\/Siemens.png",
+		"outputAbbreviatedPath": "\/img\/logos\/Siemens.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
