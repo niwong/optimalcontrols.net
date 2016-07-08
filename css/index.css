@@ -116,11 +116,49 @@ h1, h2, h3, h4, h5, p {
   .footer .contact p:last-child {
     margin-bottom: 25px; }
 
-/* Small only */
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .hero1 {
+    height: 410px;
+    width: 435px; }
+
+  .text1 {
+    border-right: 1px solid #979797; }
+
   .text1and2 .borderDivider {
-    border-bottom: 0px; } }
+    border-bottom: 0px; }
+
+  .footer {
+    margin-bottom: 40px; }
+    .footer .contact {
+      padding-left: 70px; }
+    .footer .form {
+      padding-left: 40px; } }
 /* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .footer {
+    height: auto; }
+    .footer h1 {
+      font-size: 40px; } }
 /* Large and up */
+@media screen and (min-width: 64em) {
+  .hero1 {
+    left: 70%;
+    width: auto; }
+
+  .clients {
+    padding-top: 50px; }
+
+  .clients .logoCont {
+    text-align: center;
+    margin-bottom: 80px; }
+
+  .clients .logo {
+    display: inline-block;
+    margin: 0px;
+    margin-right: 40px; }
+
+  .clients .logo:last-child {
+    margin-bottom: 0px;
+    margin-right: 0px; } }
 /* Large only */
