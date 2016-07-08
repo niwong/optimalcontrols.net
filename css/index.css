@@ -123,7 +123,13 @@ h1, h2, h3, h4, h5, p {
     width: 435px; }
 
   .text1 {
-    border-right: 1px solid #979797; }
+    border-right: 1px solid #979797;
+    padding-right: 50px;
+    padding-left: 50px; }
+
+  .text2 {
+    padding-right: 50px;
+    padding-left: 50px; }
 
   .text1and2 .borderDivider {
     border-bottom: 0px; }
@@ -146,19 +152,40 @@ h1, h2, h3, h4, h5, p {
     left: 70%;
     width: auto; }
 
+  .text1and2 {
+    height: 400px; }
+    .text1and2 .text1 {
+      height: 100%;
+      padding-top: 70px;
+      padding-left: 70px;
+      padding-right: 70px; }
+    .text1and2 .text2 {
+      height: 100%;
+      padding-top: 70px;
+      padding-left: 70px;
+      padding-right: 70px; }
+
   .clients {
     padding-top: 50px; }
+    .clients .logoCont {
+      text-align: center;
+      margin-bottom: 80px; }
+    .clients .logo {
+      display: inline-block;
+      margin: 0px;
+      margin-right: 40px; }
+    .clients .logo:last-child {
+      margin-bottom: 0px;
+      margin-right: 0px; }
 
-  .clients .logoCont {
-    text-align: center;
-    margin-bottom: 80px; }
-
-  .clients .logo {
-    display: inline-block;
-    margin: 0px;
-    margin-right: 40px; }
-
-  .clients .logo:last-child {
-    margin-bottom: 0px;
-    margin-right: 0px; } }
+  .footer {
+    height: 500px; }
+    .footer .form {
+      height: 100%;
+      padding-top: 100px;
+      margin-left: 100px; }
+    .footer .contact {
+      height: 100%;
+      padding-top: 100px;
+      padding-left: 100px; } }
 /* Large only */

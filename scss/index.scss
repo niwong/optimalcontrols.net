@@ -181,6 +181,14 @@ h1, h2, h3, h4, h5, p {
 
 	 .text1 {
 	 	border-right: 1px solid #979797;
+
+	 	padding-right: 50px;
+	 	padding-left: 50px;
+	 }
+
+	 .text2 {
+	 	padding-right: 50px;
+	 	padding-left: 50px;	
 	 }
 
 	.text1and2 .borderDivider {
@@ -218,24 +226,60 @@ h1, h2, h3, h4, h5, p {
 		width: auto;
 	}	
 
+	.text1and2 {
+		height: 400px;
+
+		.text1 {
+			height: 100%;
+			padding-top: 70px;
+			padding-left: 70px;
+			padding-right: 70px;
+		}
+
+		.text2 {
+			height: 100%;
+			padding-top: 70px;
+			padding-left: 70px;
+			padding-right: 70px;
+		}
+	}
+
+
+
 	.clients {
 		padding-top: 50px;
+
+		.logoCont {
+			text-align: center;
+			margin-bottom: 80px;
+		}
+
+		.logo {
+			display: inline-block;
+			margin: 0px;
+			margin-right: 40px; 
+		}
+
+		.logo:last-child {
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
 	}
 
-	.clients .logoCont {
-		text-align: center;
-		margin-bottom: 80px;
-	}
+	.footer {
+		height: 500px;
 
-	.clients .logo {
-		display: inline-block;
-		margin: 0px;
-		margin-right: 40px; 
-	}
+		.form {
+			height: 100%;
+			padding-top: 100px;
+			margin-left: 100px;
+		}
 
-	.clients .logo:last-child {
-		margin-bottom: 0px;
-		margin-right: 0px;
+		.contact {
+			height: 100%;
+			padding-top: 100px;
+			padding-left: 100px;
+		}
 	}
 }
 
