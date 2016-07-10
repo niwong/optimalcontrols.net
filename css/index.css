@@ -21,17 +21,19 @@ h1, h2, h3, h4, h5, p {
 .hero1Cont {
   background: url("../img/IMG_2278.jpg");
   position: relative;
-  height: 65vh; }
+  height: 70vh; }
 
 .hero1 {
   position: absolute;
   width: 315px;
-  height: 320px;
+  height: 375px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 30px; }
+  .hero1 h1 {
+    margin-bottom: 0px; }
   .hero1 h4 {
     font-family: 'Montserrat', sans-serif;
     color: #A8A8A8;
@@ -72,7 +74,7 @@ h1, h2, h3, h4, h5, p {
     text-align: center;
     color: white; }
   .clients h1 {
-    margin-top: 30px; }
+    margin-top: 50px; }
   .clients h5 {
     margin-bottom: 30px; }
   .clients .logo {
@@ -83,7 +85,7 @@ h1, h2, h3, h4, h5, p {
     margin-right: auto;
     margin-bottom: 15px; }
   .clients .logo:last-child {
-    margin-bottom: 50px; }
+    margin-bottom: 70px; }
   .clients .hudsontech {
     background: url("../img/logos/hudsontech.png");
     background-size: 211px 56px; }
@@ -118,6 +120,9 @@ h1, h2, h3, h4, h5, p {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .hero1Cont {
+    height: 65vh; }
+
   .hero1 {
     height: 410px;
     width: 435px; }
@@ -149,6 +154,7 @@ h1, h2, h3, h4, h5, p {
 /* Large and up */
 @media screen and (min-width: 64em) {
   .hero1 {
+    height: 450px;
     left: 70%;
     width: auto; }
 
@@ -166,7 +172,10 @@ h1, h2, h3, h4, h5, p {
       padding-right: 70px; }
 
   .clients {
+    height: 500px;
     padding-top: 50px; }
+    .clients .clientsCont {
+      margin-top: 50px; }
     .clients .logoCont {
       text-align: center;
       margin-bottom: 80px; }
