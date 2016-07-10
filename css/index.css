@@ -153,10 +153,15 @@ h1, h2, h3, h4, h5, p {
       font-size: 40px; } }
 /* Large and up */
 @media screen and (min-width: 64em) {
+  .hero1Cont {
+    height: 75vh; }
+
   .hero1 {
-    height: 450px;
+    height: auto;
     left: 70%;
     width: auto; }
+    .hero1 p {
+      margin-bottom: 80px; }
 
   .text1and2 {
     height: 400px; }

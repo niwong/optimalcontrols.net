@@ -1,3 +1,5 @@
+//TODO: Landscape iphone 6.  check foundation's built in stuff.
+
 // mobile-first
 
 h1, h2, h3, h4, h5, p {
@@ -228,10 +230,19 @@ h1, h2, h3, h4, h5, p {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
+
+	.hero1Cont {
+		height: 75vh;  // this is here for the demo.  I need to differentiate a larger vh for the MBP and a lower vh for the desktop.
+	}
+
 	.hero1 {
-		height: 450px;
+		height: auto;
 		left: 70%;
 		width: auto;
+
+		p {
+			margin-bottom: 80px;
+		}
 	}	
 
 	.text1and2 {
@@ -298,11 +309,6 @@ h1, h2, h3, h4, h5, p {
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
-
-
-
-
-
 
 
 
