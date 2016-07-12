@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, p {
 .brickDivide {
   width: 54px;
   height: 6px;
-  background-color: black;
+  background-color: #F44236;
   margin: 15px 0px; }
 
 .center {
@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, p {
   margin-right: auto; }
 
 .hero1Cont {
-  background: url("../img/IMG_2278.jpg");
+  background: url("../img/optimalBck.png") no-repeat center center fixed;
+  background-size: 120% 100%;
   position: relative;
   height: 70vh; }
 
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, p {
 .clients {
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #2C3745; }
+  background-color: #6B0F1A; }
   .clients h1, .clients h5 {
     text-align: center;
     color: white; }
