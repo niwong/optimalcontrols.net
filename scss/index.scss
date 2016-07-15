@@ -21,14 +21,20 @@ h1, h2, h3, h4, h5, p {
 	margin: 15px 0px;
 }
 
+.borderDivider {
+	border-bottom: 1px solid #979797;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .hero1Cont {
-	background: url("../img/optimalBck.png")no-repeat center center fixed;
-	background-size: 120% 100%;
+	background: url("../img/IMG_2278.jpg");
 	position: relative;
 	height: 70vh;
 }
@@ -77,6 +83,8 @@ h1, h2, h3, h4, h5, p {
 
 .text1and2 {
 
+	background-color: white;
+
 	h1 {
 		margin-top: 50px;
 		text-align: center;
@@ -88,20 +96,79 @@ h1, h2, h3, h4, h5, p {
 		color: #4A4A4A;
 		margin-bottom: 50px;
 	}
+}
 
-	.borderDivider {
-		border-bottom: 1px solid #979797;
-		margin-left: auto;
-		margin-right: auto;
-		width: 80%;
+body {
+	background-color: #6B0F1A;
+}
+
+.soqCont {
+	height: auto;
+	background-color: #6B0F1A;
+	margin-top: 20px;
+	margin-bottom: 80px;
+
+	.soq {
+		height: 100%;
 	}
+
+	.iconCont {
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 75px;
+		width: 125px;
+		height: 125px;
+		border-radius: 100%;
+		border: 3px solid white;
+		position: relative;
+
+		.icon {
+			color: white;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+	}
+
+	.soqHeader {
+		color: white;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.soqDesc {
+		color: white;
+		text-align: center;
+		line-height: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 50px;
+	}
+
+	.soqButton {
+		color: white;
+		border: 1px solid white;
+		font-family: 'Montserrat', sans-serif;
+		margin-bottom: 40px;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.soqButton:hover {
+		border: 1px solid #F44236;
+		color: #F44236;
+	}
+
 }
 
 .clients {
 	padding-left: 15px;
 	padding-right: 15px;
-	// background-color: #2C3745;
-	background-color: #6B0F1A;
+	background-color: #353531;
 
 	h1, h5 {
 		text-align: center;
@@ -152,6 +219,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 .footer {
+	background-color: white;
+	margin-bottom: 0px !important;
 	padding-left: 15px;
 	padding-right: 15px;
 
