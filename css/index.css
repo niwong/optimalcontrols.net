@@ -27,12 +27,12 @@ h1, h2, h3, h4, h5, p {
 .hero1Cont {
   background: url("../img/IMG_2278.jpg");
   position: relative;
-  height: 70vh; }
+  height: 75vh; }
 
 .hero1 {
   position: absolute;
   width: 315px;
-  height: 375px;
+  height: 420px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -53,9 +53,9 @@ h1, h2, h3, h4, h5, p {
     color: #979797;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
+    position: relative;
+    top: 10px;
+    left: 0;
     margin: 0; }
 
 .text1and2 {
@@ -176,47 +176,46 @@ body {
 @media screen and (min-width: 40em) {
   .hero1Cont {
     height: 65vh; }
-
   .hero1 {
     height: 410px;
     width: 435px; }
-
+    .hero1 .button {
+      top: 15px; }
   .text1 {
     border-right: 1px solid #979797;
     padding-right: 50px;
     padding-left: 50px; }
-
   .text2 {
     padding-right: 50px;
     padding-left: 50px; }
-
   .text1and2 .borderDivider {
     border-bottom: 0px; }
-
   .footer {
     margin-bottom: 40px; }
     .footer .contact {
       padding-left: 70px; }
     .footer .form {
       padding-left: 40px; } }
+
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .footer {
     height: auto; }
     .footer h1 {
       font-size: 40px; } }
+
 /* Large and up */
 @media screen and (min-width: 64em) {
   .hero1Cont {
     height: 75vh; }
-
   .hero1 {
     height: auto;
     left: 70%;
     width: auto; }
     .hero1 p {
       margin-bottom: 80px; }
-
+    .hero1 .button {
+      top: 0; }
   .text1and2 {
     height: 400px; }
     .text1and2 .text1 {
@@ -229,7 +228,6 @@ body {
       padding-top: 70px;
       padding-left: 70px;
       padding-right: 70px; }
-
   .clients {
     height: 500px;
     padding-top: 50px; }
@@ -245,7 +243,6 @@ body {
     .clients .logo:last-child {
       margin-bottom: 0px;
       margin-right: 0px; }
-
   .footer {
     height: 500px; }
     .footer .form {
@@ -256,4 +253,5 @@ body {
       height: 100%;
       padding-top: 100px;
       padding-left: 100px; } }
+
 /* Large only */

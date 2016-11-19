@@ -36,13 +36,13 @@ h1, h2, h3, h4, h5, p {
 .hero1Cont {
 	background: url("../img/IMG_2278.jpg");
 	position: relative;
-	height: 70vh;
+	height: 75vh;
 }
 
 .hero1 {
 	position: absolute;
 	width: 315px;
-	height: 375px;
+	height: 420px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5, p {
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
 
-		position: absolute;
-		bottom: 5%;
-		left: 5%;
+		position: relative;
+		top: 10px;
+		left: 0;
 		margin: 0;
 
 	}
@@ -257,6 +257,10 @@ body {
 	.hero1 {
     	height: 410px;
 		width: 435px;
+
+		.button {
+			top: 15px;
+		}
 	 }
 
 	 .text1 {
@@ -313,6 +317,10 @@ body {
 
 		p {
 			margin-bottom: 80px;
+		}
+
+		.button {
+			top: 0;
 		}
 	}	
 
